@@ -91,8 +91,7 @@ ALTER TABLE `creditcard_bill`
 -- Indexes for table `customer`
 --
 ALTER TABLE `customer`
-  ADD PRIMARY KEY (`ccn`) USING BTREE,
-  ADD UNIQUE KEY `credit` (`ccn`);
+  ADD PRIMARY KEY (`ccn`) USING BTREE;
 
 --
 -- Constraints for dumped tables
